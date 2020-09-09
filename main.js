@@ -237,7 +237,7 @@ const rock1 = {
 
   position : [],
   dimension : [],
-  dx : 3,
+  dx : 5,
 
   draw : function(){
 
@@ -309,7 +309,7 @@ const rock2 = {
 
   position : [],
   dimension : [],
-  dx : 3,
+  dx : 5,
 
   draw : function(){
 
@@ -381,7 +381,7 @@ const galaxy1 = {
   w : 200,
   h : 100,
 
-  dx : 7,
+  dx : 5,
 
   draw : function(){
 
@@ -447,7 +447,7 @@ const galaxy2 = {
   w : 100,
   h : 100,
 
-  dx : 7,
+  dx : 5,
 
   draw : function(){
 
@@ -761,12 +761,12 @@ function update(){
 
   if (state.current == state.ready) {
     score.value = 0;
-    rock2.dx = 3;
-    rock1.dx = 3;
+    rock2.dx = 5;
+    rock1.dx = 5;
     gas.dx = 5;
     gas2.dx = 5;
-    galaxy1.dx = 7;
-    galaxy2.dx = 7;
+    galaxy1.dx = 5;
+    galaxy2.dx = 5;
   }
 
 

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Planet 404</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/planet_game.png" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="gamestart" id="gamestart">
+    <div class="gamestart_header">
+      <img class = "logo_big" src ="images/logo_big.svg">
+      <p class="message">It's one of those rogue planets which roams freely in the galaxy, not bounded by any gravity.</p>
+      <p class="message">Forever <span class="highlight"> lost in space !</span> </p>
+    </div>
+    <div class="gamestart_button">
+      <button class="spacebar" id="startgamebtn"> HIT SPACEBAR TO PLAY</button>
+    </div>
+    <div class="gamestart_image">
+      <img class="displayimg" src ="images/planet.png">
+    </div>
+  </div>
+
+  <div class="gameplay" id="gameplay">
+    <img class = "logo_small" src ="images/logo_big.svg">
+  </div>
+
+  <div class="gameover" id="gameover">
+    <div class="gameover_header">
+      <p class="message_title"> <span id="gameoverscore">50 </span> Points </p>
+      <p class="message" id ="overtext">Light Years to go before I rest! <br> Come on, get yourself up and ready to beat that score.</p>
+      <p class="message highlight"> High Score : <span id="highscore">50 </span> </p>
+    </div>
+    <div class="gameover_button">
+      <button class="spacebar" id="playagainbtn">PLAY AGAIN</button>
+    </div>
+    <div class="gameover_image">
+      <img class="displayimg" src ="images/planet_over.png">
+    </div>
+  </div>
+
+
+    <div class="canvas-container">
+      <canvas id="canvas"></canvas>
+    </div>
+
+
+
+
+  <script src="main.js"></script>
+
+
+
+</body>
+</html>

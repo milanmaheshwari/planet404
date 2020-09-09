@@ -1,0 +1,248 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #221E38;
+}
+
+#canvas {
+  background-color: #221E38;
+}
+
+@media (min-width: 768px){
+
+
+.gamestart_header{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  width: 580px;
+}
+
+.gameplay{
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.gameover_header{
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  width: 580px;
+}
+
+
+.logo_big{
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.logo_small{
+  width: 180px;
+}
+
+.logo_small:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.gamestart_image{
+  position: absolute;
+  right: 15%;
+  top:25%;
+}
+
+.gameover_image{
+  position: absolute;
+  right: 20%;
+  top:15%;
+}
+
+
+.gamestart_button, .gameover_button{
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.spacebar{
+  padding: 24px 100px;
+  width: 600px;
+  background-color: #221E38;
+  border: 4px solid #FCA311;
+  border-radius: 4px;
+  text-shadow: none;
+  font-size: 28px;
+  line-height: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #FCA311;
+}
+
+.spacebar:hover{
+  background-color: #FCA311;
+  color: #FFFFFF;
+  cursor: pointer;
+  /*filter: drop-shadow(0px 20px 0px #FFFFFF);*/
+  transform: scale(1.05);
+
+}
+
+.message{
+  text-shadow: none;
+  font-size: 28px;
+  line-height: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.message_title{
+  text-shadow: none;
+  font-size: 70px;
+  line-height: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.highlight{
+  font-weight: 700;
+  color: #FCA311;
+}
+
+}
+
+
+
+@media (min-width: 360px) and (max-width: 767px){
+
+.gamestart{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+}
+
+.gameover{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  right: 10%;
+}
+
+.gamestart_header{
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.gameplay{
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.gameover_header{
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+
+.logo_big{
+  width: 200px;
+  margin-bottom: 8px;
+}
+
+.logo_small{
+  width: 140px;
+}
+
+.logo_small:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.gamestart_image{
+  position: relative;
+  top: 120px;
+}
+
+.gamestart_image img{
+  width: 300px;
+}
+
+.gameover_image{
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+
+.gameover_image img{
+  width: 200px;
+}
+
+
+.gamestart_button, .gameover_button{
+  position: relative;
+  top: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.spacebar{
+  padding: 16px 0px;
+  width: 100%;
+  background-color: #221E38;
+  border: 4px solid #FCA311;
+  border-radius: 4px;
+  text-shadow: none;
+  font-size: 20px;
+  line-height: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #FCA311;
+}
+
+.spacebar:hover{
+  background-color: #FCA311;
+  color: #FFFFFF;
+  cursor: pointer;
+  /*filter: drop-shadow(0px 20px 0px #FFFFFF);*/
+  transform: scale(1.05);
+
+}
+
+.message{
+  text-shadow: none;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.message_title{
+  text-shadow: none;
+  font-size: 56px;
+  line-height: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.highlight{
+  font-weight: 700;
+  color: #FCA311;
+}
+
+}

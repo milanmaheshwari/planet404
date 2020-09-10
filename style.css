@@ -94,6 +94,10 @@ html {
 
 }
 
+.mobilebtn{
+  display: none;
+}
+
 .message{
   text-shadow: none;
   font-size: 24px;
@@ -103,9 +107,10 @@ html {
   color: #FFFFFF;
 }
 
+
 .message_title{
   text-shadow: none;
-  font-size: 60px;
+  font-size: 64px;
   line-height: 0px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -217,9 +222,11 @@ html {
   background-color: #FCA311;
   color: #FFFFFF;
   cursor: pointer;
-  /*filter: drop-shadow(0px 20px 0px #FFFFFF);*/
   transform: scale(1.05);
+}
 
+.desktopbtn{
+  display: none;
 }
 
 .message{
@@ -230,6 +237,7 @@ html {
   font-weight: 500;
   color: #FFFFFF;
 }
+
 
 .message_title{
   text-shadow: none;

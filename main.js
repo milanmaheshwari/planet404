@@ -128,7 +128,7 @@ const planet = {
 
   frame : 0,
 
-  gravity : 0.5,
+  gravity : 0.4,
   movementup : 10,
   speed : 0,
 
@@ -200,7 +200,7 @@ const planet_initial = {
 
   frame : 0,
 
-  gravity : 0.4,
+  gravity : 0.3,
   movementup : 10,
   speed : 0,
 
@@ -737,17 +737,6 @@ function update(){
   }
 
   if (state.current == state.over) {
-    rock1.position.length = 0;
-    rock1.dimension.length = 0;
-    rock2.position.length = 0;
-    rock2.dimension.length = 0;
-    galaxy1.position.length = 0;
-    galaxy1.origin.length = 0;
-    galaxy2.position.length = 0;
-    galaxy2.origin.length = 0;
-
-    gas.position.length = 0;
-    gas2.position.length = 0;
 
     document.getElementById("gameoverscore").innerHTML = score.value;
     document.getElementById("highscore").innerHTML = score.best;
@@ -760,6 +749,19 @@ function update(){
   }
 
   if (state.current == state.ready) {
+
+    rock1.position.length = 0;
+    rock1.dimension.length = 0;
+    rock2.position.length = 0;
+    rock2.dimension.length = 0;
+    galaxy1.position.length = 0;
+    galaxy1.origin.length = 0;
+    galaxy2.position.length = 0;
+    galaxy2.origin.length = 0;
+
+    gas.position.length = 0;
+    gas2.position.length = 0;
+
     score.value = 0;
     rock2.dx = 5;
     rock1.dx = 5;

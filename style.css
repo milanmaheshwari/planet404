@@ -35,7 +35,7 @@ html {
 
 
 .logo_big{
-  width: 280px;
+  width: 240px;
   margin-bottom: 10px;
 }
 
@@ -96,8 +96,8 @@ html {
 
 .message{
   text-shadow: none;
-  font-size: 28px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 40px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: #FFFFFF;
@@ -105,7 +105,7 @@ html {
 
 .message_title{
   text-shadow: none;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 0px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;

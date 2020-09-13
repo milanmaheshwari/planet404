@@ -81,6 +81,7 @@ function clickevent(){
 
 
 document.getElementById("startgamebtn").addEventListener("click", event);
+document.getElementById("startgamebtn2").addEventListener("click", event);
 document.getElementById("playagainbtn").addEventListener("click", event);
 
 document.body.onkeyup = function(e){

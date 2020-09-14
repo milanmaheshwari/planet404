@@ -690,8 +690,10 @@ function draw(){
   bg.draw();
   planet_initial.draw();
   if (state.current == state.ready || state.current == state.game ){
+    if(window.innerWidth > 768){
     ctx.fillStyle = "#221E38";
     ctx.fillRect(myWidth-200, 0, 200, 150);
+  }
   }
   gas.draw();
   gas2.draw();

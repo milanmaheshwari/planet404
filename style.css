@@ -97,6 +97,10 @@ html {
 .mobilebtn{
   display: none;
 }
+    
+.note{
+  display: none;
+}
 
 .message{
   text-shadow: none;

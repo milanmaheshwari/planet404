@@ -97,10 +97,6 @@ html {
 .mobilebtn{
   display: none;
 }
-    
-.note{
-  display: none;
-}
 
 .message{
   text-shadow: none;
@@ -125,6 +121,10 @@ html {
   font-weight: 700;
   color: #FCA311;
 }
+    
+.note{
+  display: none;
+}    
 
 }
 
